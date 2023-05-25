@@ -14,10 +14,11 @@
     <title>Input Text</title>
 </head>
 <body>
-    <div class="add-input" data-feather="edit" class="align-text-bottom"></div>
+    <i id="ai-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>
+    <i id="ai-bold" data-feather="plus-circle"></i>
 
     <script>
-        feather.replace()
+        feather.replace();
     </script>
 </body>
 </html>
