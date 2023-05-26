@@ -14,11 +14,12 @@
     <title>Input Text</title>
 </head>
 <body>
-    <i id="ai-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>
-    <i id="ai-bold" data-feather="plus-circle"></i>
+    <a href="http://physicsyourself.com"><i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>Hahaha</a>
+    <i id="add-input-bold" data-feather="plus-circle"></i>
 
     <script>
         feather.replace();
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
