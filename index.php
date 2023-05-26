@@ -14,8 +14,20 @@
     <title>Input Text</title>
 </head>
 <body>
-    <a href="http://physicsyourself.com"><i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>Hahaha</a>
+    <a href="http://physicsyourself.com" class="tooltip"><i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>Hahaha</a>
     <i id="add-input-bold" data-feather="plus-circle"></i>
+
+    <h2>Top Tooltip w/ Bottom Arrow</h2>
+
+    <div class="tooltip">
+        <i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>
+        <span class="tooltiptext">
+            <div>
+                <a>ab</a>
+                <a>cd</a>
+            </div>
+        </span>
+    </div>
 
     <script>
         feather.replace();
