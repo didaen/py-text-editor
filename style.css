@@ -1,4 +1,13 @@
-#ai-bold {
+#add-input-bold {
     background-color: #aabbdd;
     border-radius: 50%;
+}
+
+#add-input-light {
+    color: yellow;
+}
+
+#add-input-light:hover {
+    color: red;
+    fill: green;
 }
