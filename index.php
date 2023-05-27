@@ -20,7 +20,7 @@
     <h2>Top Tooltip w/ Bottom Arrow</h2>
 
     <div class="tooltip">
-        <i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>
+        <a href="http://physicsyourself.com" class="tooltip"><i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>Text</a>
         <span class="tooltiptext">
             <div>
                 <a>ab</a>
