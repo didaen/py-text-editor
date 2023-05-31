@@ -18,8 +18,8 @@
 
     <h2>Top Tooltip w/ Bottom Arrow</h2>
 
-    <div class="tooltip" onclick="addInput()">
-        <a><i id="add-input-light" data-feather="plus-circle" stroke-width="1"></i></a>
+    <div class="tooltip">
+        <a><i id="add-input-light" data-feather="plus-circle" stroke-width="1" onclick="addInput()"></i></a>
         <span class="tooltiptext">
             <div>
                 <a>Text |</a>
