@@ -14,17 +14,16 @@
     <title>Input Text</title>
 </head>
 <body>
-    <a href="http://physicsyourself.com" class="tooltip"><i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>Hahaha</a>
     <i id="add-input-bold" data-feather="plus-circle"></i>
 
     <h2>Top Tooltip w/ Bottom Arrow</h2>
 
-    <div class="tooltip">
-        <a href="http://physicsyourself.com" class="tooltip"><i id="add-input-light" data-feather="plus-circle" stroke-width="1" color="#aaddee"></i>Text</a>
+    <div class="tooltip" onclick="addInput()">
+        <a><i id="add-input-light" data-feather="plus-circle" stroke-width="1"></i></a>
         <span class="tooltiptext">
             <div>
-                <a>ab</a>
-                <a>cd</a>
+                <a>Text |</a>
+                <a> Gambar</a>
             </div>
         </span>
     </div>
