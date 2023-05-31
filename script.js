@@ -1,14 +1,14 @@
 const tooltipText = document.querySelector(".tooltiptext");
-tooltipText.style.visibility = "hidden";
+tooltipText.style.display = "none";
 const addInputLight = document.getElementById("add-input-light");
 
 function addInput() {
-    if (tooltipText.style.visibility == "hidden") {
-        tooltipText.style.visibility = "visible";
+    if (tooltipText.style.display === "none") {
+        tooltipText.style.display = "grid";
         addInputLight.setAttribute("color", "red");
         addInputLight.setAttribute("fill", "green");
-    } else {
-        tooltipText.style.visibility = "hidden";
+    } else if (tooltipText.style.display === "grid") {
+        tooltipText.style.display = "none";
         addInputLight.setAttribute("color", "");
         addInputLight.setAttribute("fill", "white");
     }
