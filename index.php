@@ -22,8 +22,8 @@
         <i id="add-input-light" data-feather="plus-circle" stroke-width="1" onclick="addInput()"></i>
         <span class="tooltip-text">
             <div>
-                <a href="https://physicsyourself.com" class="tooltip-text-options">Text </a>|
-                <a href="https://journal.physicsyourself.com" class="tooltip-text-options"> Gambar</a>
+                <a href="https://physicsyourself.com" class="tooltip-text-options" onclick="addText()">Text </a>|
+                <a href="https://journal.physicsyourself.com" class="tooltip-text-options" onclick="addPicture()"> Picture</a>
             </div>
         </span>
     </div>
