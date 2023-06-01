@@ -1,4 +1,4 @@
-const tooltipText = document.querySelector(".tooltiptext");
+const tooltipText = document.querySelector(".tooltip-text");
 tooltipText.style.display = "none";
 const addInputLight = document.getElementById("add-input-light");
 
