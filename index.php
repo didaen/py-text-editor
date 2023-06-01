@@ -19,11 +19,11 @@
     <h2>Top Tooltip w/ Bottom Arrow</h2>
 
     <div class="tooltip">
-        <a><i id="add-input-light" data-feather="plus-circle" stroke-width="1" onclick="addInput()"></i></a>
-        <span class="tooltiptext">
+        <i id="add-input-light" data-feather="plus-circle" stroke-width="1" onclick="addInput()"></i>
+        <span class="tooltip-text">
             <div>
-                <a>Text |</a>
-                <a> Gambar</a>
+                <a href="https://physicsyourself.com" class="tooltip-text-options">Text </a>|
+                <a href="https://journal.physicsyourself.com" class="tooltip-text-options"> Gambar</a>
             </div>
         </span>
     </div>
